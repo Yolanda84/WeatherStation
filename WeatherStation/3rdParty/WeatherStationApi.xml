@@ -1,0 +1,416 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WeatherStationApi</name>
+    </assembly>
+    <members>
+        <member name="P:WeatherStationApi.Model.Coordinates.Longitude">
+            <summary>
+            City geo location, longitude
+            </summary>
+        </member>
+        <member name="P:WeatherStationApi.Model.Coordinates.Latitude">
+            <summary>
+            City geo location, latitude
+            </summary>
+        </member>
+        <member name="P:WeatherStationApi.Model.Weather.ID">
+            <summary>
+            Weather condition id
+            </summary>
+        </member>
+        <member name="P:WeatherStationApi.Model.Weather.Main">
+            <summary>
+            Group of weather parameters (Rain, Snow, Extreme etc.)
+            </summary>
+        </member>
+        <member name="P:WeatherStationApi.Model.Weather.Description">
+            <summary>
+            Weather condition within the group
+            </summary>
+        </member>
+        <member name="P:WeatherStationApi.Model.Weather.Icon">
+            <summary>
+            Weather icon id
+            </summary>
+        </member>
+        <member name="P:WeatherStationApi.Model.MainInfo.Temperature">
+            <summary>
+            Temperature. Unit Default: Kelvin, Metric: Celsius, Imperial: Fahrenheit
+            </summary>
+        </member>
+        <member name="P:WeatherStationApi.Model.MainInfo.Pressure">
+            <summary>
+            Atmospheric pressure (on the sea level, if there is no sea_level or grnd_level data), hPa
+            </summary>
+        </member>
+        <member name="P:WeatherStationApi.Model.MainInfo.Humidity">
+            <summary>
+            Humidity, %
+            </summary>
+        </member>
+        <member name="P:WeatherStationApi.Model.MainInfo.MinTemperature">
+            <summary>
+            Minimum temperature at the moment. This is deviation from current temp that is possible for large cities and megalopolises geographically expanded (use these parameter optionally). Unit Default: Kelvin, Metric: Celsius, Imperial: Fahrenheit
+            </summary>
+        </member>
+        <member name="P:WeatherStationApi.Model.MainInfo.MaxTemperature">
+            <summary>
+            Maximum temperature at the moment. This is deviation from current temp that is possible for large cities and megalopolises geographically expanded (use these parameter optionally). Unit Default: Kelvin, Metric: Celsius, Imperial: Fahrenheit
+            </summary>
+        </member>
+        <member name="P:WeatherStationApi.Model.MainInfo.SeaLevel">
+            <summary>
+            Atmospheric pressure on the sea level, hPa
+            </summary>
+        </member>
+        <member name="P:WeatherStationApi.Model.MainInfo.GroundLevel">
+            <summary>
+            Atmospheric pressure on the ground level, hPa
+            </summary>
+        </member>
+        <member name="P:WeatherStationApi.Model.Wind.Speed">
+            <summary>
+            Wind speed. Unit Default: meter/sec, Metric: meter/sec, Imperial: miles/hour
+            </summary>
+        </member>
+        <member name="P:WeatherStationApi.Model.Wind.Degrees">
+            <summary>
+            Wind direction, degrees (meteorological)
+            </summary>
+        </member>
+        <member name="P:WeatherStationApi.Model.Clouds.All">
+            <summary>
+            Cloudiness, %
+            </summary>
+        </member>
+        <member name="P:WeatherStationApi.Model.Rain.Last3Hours">
+            <summary>
+            Rain volume for the last 3 hours
+            </summary>
+        </member>
+        <member name="P:WeatherStationApi.Model.Snow.Last3Hours">
+            <summary>
+            Snow volume for the last 3 hours
+            </summary>
+        </member>
+        <member name="P:WeatherStationApi.Model.SysInfo.Type">
+            <summary>
+            Internal parameter
+            </summary>
+        </member>
+        <member name="P:WeatherStationApi.Model.SysInfo.ID">
+            <summary>
+            Internal parameter
+            </summary>
+        </member>
+        <member name="P:WeatherStationApi.Model.SysInfo.Message">
+            <summary>
+            Internal parameter
+            </summary>
+        </member>
+        <member name="P:WeatherStationApi.Model.SysInfo.Country">
+            <summary>
+            Country code (GB, JP etc.)
+            </summary>
+        </member>
+        <member name="P:WeatherStationApi.Model.SysInfo.Sunrise">
+            <summary>
+            Sunrise time, unix, UTC
+            </summary>
+        </member>
+        <member name="P:WeatherStationApi.Model.SysInfo.Sunset">
+            <summary>
+            Sunset time, unix, UTC
+            </summary>
+        </member>
+        <member name="P:WeatherStationApi.Model.City.ID">
+            <summary>
+            City ID
+            </summary>
+        </member>
+        <member name="P:WeatherStationApi.Model.City.Name">
+            <summary>
+            City name
+            </summary>
+        </member>
+        <member name="P:WeatherStationApi.Model.City.Coordinates">
+            <summary>
+            Coordinates info
+            </summary>
+        </member>
+        <member name="P:WeatherStationApi.Model.City.Country">
+            <summary>
+            Country code (GB, JP etc.)
+            </summary>
+        </member>
+        <member name="P:WeatherStationApi.Model.ForecastAnalysis.Date">
+            <summary>
+            Time of data forecasted, unix, UTC
+            </summary>
+        </member>
+        <member name="P:WeatherStationApi.Model.ForecastAnalysis.MainInfo">
+            <summary>
+            Main info
+            </summary>
+        </member>
+        <member name="P:WeatherStationApi.Model.ForecastAnalysis.WeatherInfo">
+            <summary>
+            Weather info
+            </summary>
+        </member>
+        <member name="P:WeatherStationApi.Model.ForecastAnalysis.Clouds">
+            <summary>
+            Clouds info
+            </summary>
+        </member>
+        <member name="P:WeatherStationApi.Model.ForecastAnalysis.Wind">
+            <summary>
+            Wind info
+            </summary>
+        </member>
+        <member name="P:WeatherStationApi.Model.ForecastAnalysis.Rain">
+            <summary>
+            Rain info
+            </summary>
+        </member>
+        <member name="P:WeatherStationApi.Model.ForecastAnalysis.Snow">
+            <summary>
+            Snow info
+            </summary>
+        </member>
+        <member name="P:WeatherStationApi.Model.ForecastAnalysis.DateText">
+            <summary>
+            Data/time of calculation, UTC
+            </summary>
+        </member>
+        <member name="T:WeatherStationApi.Model.SimpleRequestParams">
+            <summary>
+            Simple request parameters
+            </summary>
+        </member>
+        <member name="F:WeatherStationApi.Model.SimpleRequestParams.Lang">
+            <summary>
+            Language
+            </summary>
+        </member>
+        <member name="F:WeatherStationApi.Model.SimpleRequestParams.Units">
+            <summary>
+            Units
+            </summary>
+        </member>
+        <member name="F:WeatherStationApi.Model.SimpleRequestParams.Mode">
+            <summary>
+            Mode
+            </summary>
+        </member>
+        <member name="T:WeatherStationApi.Model.Lang">
+            <summary>
+            Language
+            </summary>
+        </member>
+        <member name="T:WeatherStationApi.Model.Units">
+            <summary>
+            Units
+            </summary>
+        </member>
+        <member name="T:WeatherStationApi.Model.ResponseType">
+            <summary>
+            Response type
+            </summary>
+        </member>
+        <member name="T:WeatherStationApi.Model.AdvancedRequestParams">
+            <summary>
+            Advanced request parameters
+            </summary>
+        </member>
+        <member name="F:WeatherStationApi.Model.AdvancedRequestParams.Language">
+            <summary>
+            Language
+            </summary>
+        </member>
+        <member name="F:WeatherStationApi.Model.AdvancedRequestParams.Units">
+            <summary>
+            Units
+            </summary>
+        </member>
+        <member name="F:WeatherStationApi.Model.AdvancedRequestParams.Mode">
+            <summary>
+            Mode
+            </summary>
+        </member>
+        <member name="P:WeatherStationApi.Model.ForecastResponse.Code">
+            <summary>
+             Internal parameter
+            </summary>
+        </member>
+        <member name="P:WeatherStationApi.Model.ForecastResponse.Message">
+            <summary>
+             Internal parameter
+            </summary>
+        </member>
+        <member name="P:WeatherStationApi.Model.ForecastResponse.City">
+            <summary>
+             City info
+            </summary>
+        </member>
+        <member name="P:WeatherStationApi.Model.ForecastResponse.Count">
+            <summary>
+             Results number
+            </summary>
+        </member>
+        <member name="P:WeatherStationApi.Model.ForecastResponse.Analysis">
+            <summary>
+             The forecast analysis
+            </summary>
+        </member>
+        <member name="P:WeatherStationApi.Model.WeatherResponse.Coordinates">
+            <summary>
+            Coordinates info
+            </summary>
+        </member>
+        <member name="P:WeatherStationApi.Model.WeatherResponse.Weather">
+            <summary>
+            Weather info
+            </summary>
+        </member>
+        <member name="P:WeatherStationApi.Model.WeatherResponse.Base">
+            <summary>
+            Internal parameter
+            </summary>
+        </member>
+        <member name="P:WeatherStationApi.Model.WeatherResponse.MainInfo">
+            <summary>
+            Main info
+            </summary>
+        </member>
+        <member name="P:WeatherStationApi.Model.WeatherResponse.Visibility">
+            <summary>
+            Visibility, meter
+            </summary>
+        </member>
+        <member name="P:WeatherStationApi.Model.WeatherResponse.Wind">
+            <summary>
+            Wind info
+            </summary>
+        </member>
+        <member name="P:WeatherStationApi.Model.WeatherResponse.Clouds">
+            <summary>
+            Clouds info
+            </summary>
+        </member>
+        <member name="P:WeatherStationApi.Model.WeatherResponse.Date">
+            <summary>
+            Time of data calculation, unix, UTC
+            </summary>
+        </member>
+        <member name="P:WeatherStationApi.Model.WeatherResponse.SysInfo">
+            <summary>
+            Sys info
+            </summary>
+        </member>
+        <member name="P:WeatherStationApi.Model.WeatherResponse.ID">
+            <summary>
+            City ID
+            </summary>
+        </member>
+        <member name="P:WeatherStationApi.Model.WeatherResponse.Name">
+            <summary>
+            City name
+            </summary>
+        </member>
+        <member name="P:WeatherStationApi.Model.WeatherResponse.Code">
+            <summary>
+             Internal parameter
+            </summary>
+        </member>
+        <member name="T:WeatherStationApi.WeatherStationClient">
+            <summary>
+            The Weather station client
+            </summary>
+        </member>
+        <member name="F:WeatherStationApi.WeatherStationClient.ATHENS_CITY_ID">
+            <summary>
+            The city of Athens ID
+            </summary>
+        </member>
+        <member name="M:WeatherStationApi.WeatherStationClient.GetWeatherForAthens">
+            <summary>
+            Makes a http request to openweathermap and returns the current weather conditions for Athens
+            </summary>
+            <returns>WeatherResponse</returns>
+        </member>
+        <member name="M:WeatherStationApi.WeatherStationClient.GetWeather(System.String,WeatherStationApi.Model.SimpleRequestParams)">
+            <summary>
+            Makes a http request to openweathermap and returns the current weather conditions for the designated cityID
+            </summary>
+            <param name="cityID"></param>
+            <param name="args"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WeatherStationApi.WeatherStationClient.GetWeather(System.String,WeatherStationApi.Model.AdvancedRequestParams)">
+            <summary>
+            Makes a http request to openweathermap and returns the current weather conditions for the designated cityID
+            </summary>
+            <param name="cityID"></param>
+            <param name="args"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WeatherStationApi.WeatherStationClient.GetWeather(System.String,System.String,System.String,System.String)">
+            <summary>
+            Makes a http request to openweathermap and returns the current weather conditions for the designated cityID
+            </summary>
+            <param name="cityID"></param>
+            <param name="lang"></param>
+            <param name="units"></param>
+            <param name="mode"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WeatherStationApi.WeatherStationClient.GetWeather(System.Collections.Generic.IDictionary{System.String,System.String})">
+            <summary>
+            Makes a http request to openweathermap and returns the current weather conditions for the designated cityID
+            </summary>
+            <param name="queryParams"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WeatherStationApi.WeatherStationClient.GetForecastForAthens">
+            <summary>
+            Makes a http request to openweathermap and returns a forecast for the next 5 days split in 3hours
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WeatherStationApi.WeatherStationClient.GetForecast(System.String,WeatherStationApi.Model.SimpleRequestParams)">
+            <summary>
+            Makes a http request to openweathermap and returns a forecast for the next 5 days split in 3hours
+            </summary>
+            <param name="cityID"></param>
+            <param name="args"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WeatherStationApi.WeatherStationClient.GetForecast(System.String,WeatherStationApi.Model.AdvancedRequestParams)">
+            <summary>
+            Makes a http request to openweathermap and returns a forecast for the next 5 days split in 3hours
+            </summary>
+            <param name="cityID"></param>
+            <param name="args"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WeatherStationApi.WeatherStationClient.GetForecast(System.String,System.String,System.String,System.String)">
+            <summary>
+            Makes a http request to openweathermap and returns a forecast for the next 5 days split in 3hours
+            </summary>
+            <param name="cityID"></param>
+            <param name="lang"></param>
+            <param name="units"></param>
+            <param name="mode"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WeatherStationApi.WeatherStationClient.GetForecast(System.Collections.Generic.IDictionary{System.String,System.String})">
+            <summary>
+            Makes a http request to openweathermap and returns a forecast for the next 5 days split in 3hours
+            </summary>
+            <param name="queryParams"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

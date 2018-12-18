@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2000
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherStation", "WeatherStation\WeatherStation.csproj", "{A1521C7E-EE1A-4703-AB7D-A6D96830E8C7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A1521C7E-EE1A-4703-AB7D-A6D96830E8C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1521C7E-EE1A-4703-AB7D-A6D96830E8C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1521C7E-EE1A-4703-AB7D-A6D96830E8C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1521C7E-EE1A-4703-AB7D-A6D96830E8C7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D5E4A09D-F06A-4480-8FEC-F503696EF135}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 2
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://yodaperdikaris.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = WeatherStation\\WeatherStation.csproj
+		SccProjectName1 = WeatherStation
+		SccLocalPath1 = WeatherStation
+	EndGlobalSection
+EndGlobal
